@@ -25,10 +25,11 @@
         <a href="{{ route('welcome') }}" :active="request()->routeIs('welcome')">
             Click to welcome page
         </a>
+        <a href="{{ route('welcome') }}" :active="request()->routeIs('welcome')">
+            Click to welcome page
+        </a>
     </div>
     
-    
-
     <script>
             
         var ctx = document.getElementById('barChart').getContext('2d');
